@@ -7,7 +7,7 @@ it through CliConnection.CliCommand[WithoutTerminalOutput] and parsing the outpu
 What the wrapper tries to do for you:
 - Initialize everything that needs to be initialized to safely call the APIs
 - Hide all of the different internal classes (repositories and helpers)
-- Provide access to useful feature that are in the CLI to ease consumption of the API
+- Provide access to useful features that are in the CLI to ease consumption of the API
 
 Examples of the latter:
 - Panic handling
